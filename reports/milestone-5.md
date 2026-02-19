@@ -9,7 +9,7 @@ The OCM stub was rewritten in Go and tagged as `v1.0.0` in `opencloudmesh-go`. D
 Key deliverables:
 
 - Core implementation and deliverable tag: [MahdiBaghbani/opencloudmesh-go@v1.0.0](https://github.com/MahdiBaghbani/opencloudmesh-go/tree/v1.0.0)
-- Docker deployment workflow: [MahdiBaghbani/opencloudmesh-go#1](https://github.com/MahdiBaghbani/opencloudmesh-go/pull/1)
+- Docker deployment workflow: [MahdiBaghbani/opencloudmesh-go#1](https://github.com/MahdiBaghbani/opencloudmesh-go/commit/b3fd9d95352a21e743ef73210462f580507e14ee)
 - OCM Test Suite E2E coverage: [cs3org/ocm-test-suite#215](https://github.com/cs3org/ocm-test-suite/pull/215)
 - OCM-API reference specification (discovery): [cs3org/OCM-API IETF-RFC (discovery)](https://github.com/cs3org/OCM-API/blob/615192eeff00bcd479364dfa9c1f91641ac7b505/IETF-RFC.md?plain=1#ocm-api-discovery)
 
@@ -76,7 +76,7 @@ Code refs:
 
 ### Docker deployment
 
-- Added a GitHub Actions workflow to build and publish the `opencloudmesh-go` Docker image to GHCR: [MahdiBaghbani/opencloudmesh-go#1](https://github.com/MahdiBaghbani/opencloudmesh-go/pull/1).
+- Added a GitHub Actions workflow to build and publish the `opencloudmesh-go` Docker image to GHCR: [MahdiBaghbani/opencloudmesh-go#1](https://github.com/MahdiBaghbani/opencloudmesh-go/commit/b3fd9d95352a21e743ef73210462f580507e14ee).
 - Additional container and integration wiring for the new service in the DockyPody containers repository: [MahdiBaghbani/containers#1](https://github.com/MahdiBaghbani/containers/pull/1).
 - Work tracking issue: [cs3org/OCM-STA#13](https://github.com/cs3org/OCM-STA/issues/13)
 
@@ -99,7 +99,7 @@ Code refs:
   - Config and env vars for service identity (`HOST` / `PUBLIC_ORIGIN`), runtime mode (`OCM_GO_MODE`), config file (`CONFIG`), TLS (`TLS_ENABLED`, `TLS_CERT`, `TLS_KEY`, `TLS_CA`). Supports strict protocol and pragmatic interop. All in the `v1.0.0` tree.
 
 - Implement Docker deploy:
-  - Docker build/publish workflow [MahdiBaghbani/opencloudmesh-go#1](https://github.com/MahdiBaghbani/opencloudmesh-go/pull/1); container wiring [MahdiBaghbani/containers#1](https://github.com/MahdiBaghbani/containers/pull/1).
+  - Docker build/publish workflow [MahdiBaghbani/opencloudmesh-go#1](https://github.com/MahdiBaghbani/opencloudmesh-go/commit/b3fd9d95352a21e743ef73210462f580507e14ee); container wiring [MahdiBaghbani/containers#1](https://github.com/MahdiBaghbani/containers/pull/1).
 
 - Implement full support in the OCM Test Suite:
   - E2E scenarios and CI wiring [cs3org/ocm-test-suite#215](https://github.com/cs3org/ocm-test-suite/pull/215).
