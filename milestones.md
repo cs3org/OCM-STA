@@ -9,18 +9,18 @@
     Service lookup and a Where-are-you-from UI page is involved.
 
 - Milestone M2: Plugin for running the OCM Test Suite in
-  Nextcloud's and Reva’s CI pipelines
+  Nextcloud's and Reva's CI pipelines
   - Produce and submit a PR upstream to Nextcloud and CERNBox,
     such that they can validate their compliance to the OCM spec
   - Parameterised matrix test for each Vendor V (V to/from Stub,
-    V to/from V, Stub to/from Stub), where the “Stub” is an OCM
+    V to/from V, Stub to/from Stub), where the "Stub" is an OCM
     stub implementation provided by
-    https://github.com/cs3org/ocm-stub that is to be considered
+    <https://github.com/cs3org/ocm-stub> that is to be considered
     the reference implementation of the protocol.
   - Template documentation for each Vendor
 
 - Milestone M3: Code-flow implementation in Nextcloud
-  - Extend Nextcloud’s authentication logic to cover the code
+  - Extend Nextcloud's authentication logic to cover the code
     flow, by discovering the related capability
   - Add support for multi-protocol sharing in Nextcloud
 
@@ -73,16 +73,15 @@
     to IETF deadlines in the course of 2026 and prepare for IETF
     126 in Vienna.
 
-| Milestone    | Deadline   | 
+| Milestone    | Deadline   |
 |--------------|------------|
 | Milestone 1  | 2025-12-31 |
 | Milestone 2  | 2025-12-31 |
 | Milestone 3  | 2025-12-31 |
 | Milestone 4  | 2025-12-31 |
 | Milestone 5  | 2026-02-28 |
-| Milestone 6  | 2026-02-28 |
-| Milestone 7  | 2026-03-31 |
-| Milestone 8  | 2026-05-31 |
-| Milestone 9  | 2026-06-30 |
+| Milestone 6  | 2026-03-31 |
+| Milestone 7  | 2026-04-30 |
+| Milestone 8  | 2026-06-30 |
+| Milestone 9  | 2026-07-31 |
 | Milestone 10 | 2026-08-30 |
-
