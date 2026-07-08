@@ -46,38 +46,49 @@ Links to the public repositories and pull requests described below.
 
 1. Milestone tracker and coordination:
 
-   - in [cs3org/OCM-STA#19](https://github.com/cs3org/OCM-STA/issues/19)
+   - [cs3org/OCM-STA#19](https://github.com/cs3org/OCM-STA/issues/19):
      Implement applications federation in Nextcloud.
-   - in [cs3org/OCM-STA#20](https://github.com/cs3org/OCM-STA/issues/20)
+   - [cs3org/OCM-STA#20](https://github.com/cs3org/OCM-STA/issues/20):
      Validate Nextcloud to CERNBox application sharing and vice versa.
 
-2. HTTP Mssage Signatures (RFC 9421):
+2. HTTP Message Signatures (RFC 9421):
 
-   - in [nextcloud/server#60136](https://github.com/nextcloud/server/pull/60136)
-     Dual stack http-sig (merged)
-   - in [nextcloud/documentation#15047](https://github.com/nextcloud/documentation/pull/15047)
+   - [nextcloud/server#60136](https://github.com/nextcloud/server/pull/60136):
+     Dual stack http-sig (merged).
+   - [nextcloud/documentation#15047](https://github.com/nextcloud/documentation/pull/15047):
      Documentation (merged).
 
 3. Compatibility layer in Nextcloud:
 
-   - in [nextcloud/server#61201](https://github.com/nextcloud/server/pull/61201)
-     Add OCM Notification Received Event (merged)
-   - in [nextcloud/server#61126](https://github.com/nextcloud/server/pull/61126)
+   - [nextcloud/server#61201](https://github.com/nextcloud/server/pull/61201):
+     Add OCM Notification Received Event (merged).
+   - [nextcloud/server#61126](https://github.com/nextcloud/server/pull/61126):
      Merge resource types by name in discovery (merged).
 
-4. Nextcloud app for receiving webapp shares:
+4. Compatibility layer in CERNBox:
 
-   - in [SUNET/ocmremotewebapp](https://github.com/SUNET/ocmremotewebapp)
+   - [cs3org/reva#5611](https://github.com/cs3org/reva/pull/5611): Reworked
+     discovery logic and payload (merged).
+   - [cs3org/reva#5664](https://github.com/cs3org/reva/pull/5664): New webapp protocol (merged).
+   - [cs3org/reva#5695](https://github.com/cs3org/reva/pull/5695): Normalize remote
+     user ids in OCM.
+   - [cs3org/reva#5696](https://github.com/cs3org/reva/pull/5696): Resolve single-file
+     OCM shares.
+   - [cs3org/reva#5697](https://github.com/cs3org/reva/pull/5698): Normalize user ids
+     on incoming OCM shares.
 
-5. Nextcloud app for integrating and sharing jupyterhub:
+5. Nextcloud apps:
 
-   - in [SUNET/nextcloud-integration_jupyterhub](https://github.com/SUNET/nextcloud-integration_jupyterhub)
+   - [SUNET/ocmremotewebapp](https://github.com/SUNET/ocmremotewebapp): app for
+     receiving webapp shares.
+   - [SUNET/nextcloud-integration_jupyterhub](https://github.com/SUNET/nextcloud-integration_jupyterhub):
+     app for integrating and sharing jupyterhub.
 
 ## Specification changes
 
 In implementing M8 we improved the specification alot with respect to webapp
 sharing. Links to the public repositories and pull requests described below
-for information purposes only, as they will be formaly reported in M10:
+for information purposes only, as they will be formally reported in M10:
 
 1. Webapp design work:
 
