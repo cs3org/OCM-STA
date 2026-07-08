@@ -92,9 +92,9 @@ for information purposes only, as they will be formally reported in M10:
 
 1. Webapp design work:
 
-   - in [cs3org/OCM-API](https//github.com/cs3org/OCM-API/pull/356)
+   - in [cs3org/OCM-API](https://github.com/cs3org/OCM-API/pull/356)
 
 2. Webapp sharing specification changes and integration protocol:
 
-   - in [cs3org/OCM-API](https//github.com/cs3org/OCM-API/pull/368)
-   - in [cs3org/OCM-API](https//github.com/cs3org/OCM-API/pull/370)
+   - in [cs3org/OCM-API](https://github.com/cs3org/OCM-API/pull/368)
+   - in [cs3org/OCM-API](https://github.com/cs3org/OCM-API/pull/370)
