@@ -71,11 +71,11 @@ Links to the public repositories and pull requests described below.
      discovery logic and payload (merged).
    - [cs3org/reva#5664](https://github.com/cs3org/reva/pull/5664): New webapp protocol (merged).
    - [cs3org/reva#5695](https://github.com/cs3org/reva/pull/5695): Normalize remote
-     user ids in OCM.
+     user ids in OCM (open).
    - [cs3org/reva#5696](https://github.com/cs3org/reva/pull/5696): Resolve single-file
-     OCM shares.
-   - [cs3org/reva#5697](https://github.com/cs3org/reva/pull/5698): Normalize user ids
-     on incoming OCM shares.
+     OCM shares (open).
+   - [cs3org/reva#5698](https://github.com/cs3org/reva/pull/5698): Normalize user ids
+     on incoming OCM shares (open).
 
 5. Nextcloud apps:
 
