@@ -75,12 +75,12 @@ Here follows a non-exhaustive list of the most relevant changes:
     federated groups spanning multiple institutions.
 - **[cs3org/OCM-API#380][ocm-api-380]**
   - Introduces IANA Registries to make the OCM protocol extendable.
-- **[cs3org/OCM-API#380][ocm-api-391]**
+- **[cs3org/OCM-API#391][ocm-api-391]**
   - Addressed comments from IETF HTTP Sig reviewers.
 - **[cs3org/OCM-API#400][ocm-api-400]**
   - Updates the Notifications and adds a full specification of the allowed
     payloads, whilst allowing for custom extensions.
-- **[cs3org/OCM-API#380][ocm-api-402]**
+- **[cs3org/OCM-API#402][ocm-api-402]**
   - Move encryption to the main I-D.
 
 ### 2. Participation to the IETF meetings
