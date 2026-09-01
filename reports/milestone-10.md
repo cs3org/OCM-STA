@@ -53,6 +53,10 @@ Internet-Drafts:
   institutions, a concept that was previously only mentioned but not described
   in details.
 
+The work included keeping the OpenAPI specification of the protocol up to date,
+which resulted in the delivery of [version 1.5.0][openapi-spec], latest at the time of
+writing this report.
+
 Here follows a non-exhaustive list of the most relevant changes:
 
 - **[cs3org/OCM-API#318][ocm-api-318]**
@@ -71,17 +75,21 @@ Here follows a non-exhaustive list of the most relevant changes:
     federated groups spanning multiple institutions.
 - **[cs3org/OCM-API#380][ocm-api-380]**
   - Introduces IANA Registries to make the OCM protocol extendable.
+- **[cs3org/OCM-API#380][ocm-api-391]**
+  - Addressed comments from IETF HTTP Sig reviewers.
 - **[cs3org/OCM-API#400][ocm-api-400]**
   - Updates the Notifications and adds a full specification of the allowed
     payloads, whilst allowing for custom extensions.
+- **[cs3org/OCM-API#380][ocm-api-402]**
+  - Move encryption to the main I-D.
 
 ### 2. Participation to the IETF meetings
 
 At least one team member has participated in all IETF meetings since the
 beginning of the project, including IETF 124 in Montreal and IETF 125 in
-Shenzhen. On both of these occations lightning talks on OCM was also
+Shenzhen. On both occasions, lightning talks about OCM were also
 presented. The working group held its first
-[interim, on-line meeting][ietf-interim] meeting in November 2025 and the
+[interim, on-line meeting][ietf-interim] meeting in November 2025 and a
 second one in April 2026, in preparation for the
 [in-person meeting][ietf-meeting] held at IETF 126 in Vienna in July 2026.
 
@@ -118,13 +126,16 @@ session agenda hosted by the [IETF][ietf-meeting].
 
 [sta-25]: https://github.com/cs3org/OCM-STA/issues/25
 [sta-42]: https://github.com/cs3org/OCM-STA/issues/42
+[openapi-spec]: https://cs3org.github.io/OCM-API/docs.html?tag=v1.5.0&repo=OCM-API&user=cs3org
 [ocm-api-318]: https://github.com/cs3org/OCM-API/pull/318
 [ocm-api-354]: https://github.com/cs3org/OCM-API/pull/354
 [ocm-api-368]: https://github.com/cs3org/OCM-API/pull/368
 [ocm-api-370]: https://github.com/cs3org/OCM-API/pull/370
 [ocm-api-372]: https://github.com/cs3org/OCM-API/pull/372
 [ocm-api-380]: https://github.com/cs3org/OCM-API/pull/380
+[ocm-api-391]: https://github.com/cs3org/OCM-API/pull/391
 [ocm-api-400]: https://github.com/cs3org/OCM-API/pull/400
+[ocm-api-402]: https://github.com/cs3org/OCM-API/pull/402
 [ietf-interim]: https://datatracker.ietf.org/meeting/interim-2025-ocm-01/session/ocm
 [ietf-meeting]: https://datatracker.ietf.org/meeting/126/session/ocm
 [draft-ocm]: https://datatracker.ietf.org/doc/draft-ietf-ocm-open-cloud-mesh
