@@ -44,7 +44,7 @@ referenced in [cs3org/OCM-STA#25][sta-25] with their Pull Request links.
 
 The changes resulted in seven published Versions of the core OCM IETF
 [Internet-Draft][draft-ocm], along with the creation of two additional IETF
-Internet-Drafts:
+Internet-Drafts, both adopted by the IETF WG:
 
 - The [OCM Integration Protocol I-D][draft-ocm-ip], at Version 02, to support
   the integration of third-party applications such as JupyterLab.
@@ -139,5 +139,5 @@ session agenda hosted by the [IETF][ietf-meeting].
 [ietf-interim]: https://datatracker.ietf.org/meeting/interim-2025-ocm-01/session/ocm
 [ietf-meeting]: https://datatracker.ietf.org/meeting/126/session/ocm
 [draft-ocm]: https://datatracker.ietf.org/doc/draft-ietf-ocm-open-cloud-mesh
-[draft-ocm-ip]: https://datatracker.ietf.org/doc/draft-nordin-ocm-integration-protocol
-[draft-ocm-mls]: https://datatracker.ietf.org/doc/draft-nordin-ocm-mls-federated-groups
+[draft-ocm-ip]: https://datatracker.ietf.org/doc/draft-ietf-ocm-integration-protocol
+[draft-ocm-mls]: https://datatracker.ietf.org/doc/draft-ietf-ocm-mls-federated-groups
