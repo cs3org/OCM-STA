@@ -226,7 +226,7 @@ together on a VPS at **[ocm.azadehafzar.io][validator]** instead of on GitHub
 Pages. A browser-only design would also have run into CORS and other
 cross-origin limits. The OCM Test Suite matrix and CI results still publish on
 GitHub Pages at **[cs3org.github.io/ocm-test-suite][observatory]**, and now that
-ownCloud has sponsored us the `ocm.org` domain, the plan is to bring these
+ownCloud has sponsored the `opencloudmesh.org` domain, the plan is to bring these
 together under one home.
 
 So this goal landed a bit differently from the original GitHub Pages plan: the
