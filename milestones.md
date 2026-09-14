@@ -83,5 +83,5 @@
 | Milestone 6  | 2026-03-31 |
 | Milestone 7  | 2026-04-30 |
 | Milestone 8  | 2026-06-30 |
-| Milestone 9  | 2026-07-31 |
+| Milestone 9  | 2026-08-31 |
 | Milestone 10 | 2026-08-30 |

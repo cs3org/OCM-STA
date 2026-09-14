@@ -16,7 +16,7 @@ comment on
 screenshots referenced below.
 
 The contractual milestone deadline in the upstream milestone list is
-2026-07-31.
+2026-08-31.
 
 ## Executive summary
 
@@ -51,7 +51,7 @@ According to the project milestone list, Milestone M9 is defined as:
   - Deploy on CS3 GitHub Pages
   - Return graded report
 
-Deadline: 2026-07-31
+Deadline: 2026-08-31
 
 ## Work performed
 
