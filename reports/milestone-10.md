@@ -8,9 +8,8 @@ with the IETF Working Group and in coordination with the work carried
 out in the scope of all other Milestones, in order to validate the specification
 with real-world implementations.
 
-Milestone M10 is tracked in [cs3org/OCM-STA#25][sta-25] and
-[cs3org/OCM-STA#42][sta-42]. Additional implementation work carried out
-during the M10 period is tracked in [cs3org/OCM-STA#48][sta-48].
+Milestone M10 is tracked in [cs3org/OCM-STA#25][sta-25],
+[#26][sta-26], [#27][sta-27], and [#42][sta-42].
 
 The contractual milestone deadline in the upstream milestone list is
 2026-09-30.
@@ -19,7 +18,7 @@ The contractual milestone deadline in the upstream milestone list is
 
 Milestone M10 spanned a large period of time, deliberately overlapping with
 most other Milestones, in order to close the loop between the protocol
-specification development and the actual implementations, thus validating
+specification development and the actual implementations, helping to validate
 that the protocol specification is viable and secure.
 
 Beyond the contractual goals, the M10 period was also used to carry earlier
@@ -49,13 +48,13 @@ The development of the protocol specification involved a significant number
 of amendments to the Internet-Draft text. The list of all amendments is
 referenced in [cs3org/OCM-STA#25][sta-25] with their Pull Request links.
 
-The changes resulted in seven published Versions of the core OCM IETF
+The changes resulted in revisions through Version 07 of the core OCM IETF
 [Internet-Draft][draft-ocm], along with the creation of two additional IETF
 Internet-Drafts, both adopted by the IETF WG:
 
-- The [OCM Integration Protocol I-D][draft-ocm-ip], at Version 02, to support
+- The [OCM Integration Protocol I-D][draft-ocm-ip], at Version 00, to support
   the integration of third-party applications such as JupyterLab.
-- The [OCM Message Layer Security I-D][draft-ocm-mls], at Version 03, to
+- The [OCM Messaging Layer Security I-D][draft-ocm-mls], at Version 00, to
   provide a specification useful to implement federated groups spanning multiple
   institutions, a concept that was previously only mentioned but not described
   in detail.
@@ -78,7 +77,7 @@ Here follows a non-exhaustive list of the most relevant changes:
   - Adds the Open Cloud Mesh Integration Protocol draft used for
     protocol-server integration, including web application platforms.
 - **[cs3org/OCM-API#372][ocm-api-372]**
-  - Adds the Open Cloud Mesh Message Layer Security draft used to support
+  - Adds the Open Cloud Mesh Messaging Layer Security draft used to support
     federated groups spanning multiple institutions.
 - **[cs3org/OCM-API#380][ocm-api-380]**
   - Introduces IANA Registries to make the OCM protocol extendable.
@@ -109,7 +108,7 @@ resolve the issues related to the Internet Drafts and the implementations.
 Multiple presentations were prepared for the in-person IETF 126 meeting.
 These have all been published in the [session agenda][ietf-meeting].
 
-Furthermore, the Internet Drafts were reviewed by IETF IANA members, and
+Furthermore, the Internet Drafts were reviewed by IANA reviewers, and
 contacts were established with other IETF experts in related technologies
 mentioned in the specification, such as MLS and HTTP message signatures,
 in order to validate assumptions in the specification, or improve it where
@@ -197,9 +196,10 @@ The full pull request inventory is kept in [cs3org/OCM-STA#48][sta-48].
 --
 
 [sta-25]: https://github.com/cs3org/OCM-STA/issues/25
+[sta-26]: https://github.com/cs3org/OCM-STA/issues/26
+[sta-27]: https://github.com/cs3org/OCM-STA/issues/27
 [sta-42]: https://github.com/cs3org/OCM-STA/issues/42
-[sta-48]: https://github.com/cs3org/OCM-STA/issues/48
-[openapi-spec]: https://cs3org.github.io/OCM-API/docs.html?tag=v1.5.0&repo=OCM-API&user=cs3org
+[openapi-spec]: https://cs3org.github.io/OCM-API/docs.html?branch=v1.5.0&repo=OCM-API&user=cs3org
 [ocm-api-318]: https://github.com/cs3org/OCM-API/pull/318
 [ocm-api-354]: https://github.com/cs3org/OCM-API/pull/354
 [ocm-api-368]: https://github.com/cs3org/OCM-API/pull/368
