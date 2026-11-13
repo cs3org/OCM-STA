@@ -73,6 +73,58 @@
     to IETF deadlines in the course of 2026 and prepare for IETF
     126 in Vienna.
 
+- Milestone M11: Notifications Re-haul
+  - Align major implementations with the re-hauled Notifications
+    specification to ensure interoperability.
+  - OCM Notifications in CERNBox:
+    - Provide the foundation and integration in the recently
+      revamped CERNBox notifications system.
+    - Support notifications for files' permission updates,
+      incoming and outgoing.
+    - Support notifications for removing users, incoming and
+      outgoing.
+  - OCM Notifications in Nextcloud:
+    - Introduce payload-based logic to distinguish legacy
+      Nextcloud-specific notifications from OCM-standard ones.
+    - Add an option to disable third-party sharing and its
+      corresponding legacy notifications, which are now out of
+      spec.
+  - OCM Notifications in OpenCloud:
+    - Introduce payload-based logic to distinguish legacy
+      OpenCloud-specific notifications from OCM-standard ones.
+    - Reuse patterns from CERNBox where appropriate.
+
+- Milestone M12: Proof of concept of MLS
+  - Design and implement a proof of concept demonstrating the
+    management of a federation of groups using Messaging Layer
+    Security (MLS), specified in RFC 9420, following the new
+    OCM-MLS draft.
+  - Extend the reference implementation from Milestone 5,
+    and/or CERNBox, and/or Nextcloud with support for OCM-MLS
+    notifications.
+  - Provide feedback on the correctness of the OCM-MLS
+    specification.
+
+- Milestone M13: OCM Standard Development
+  - Continue Milestone 10 by incorporating in the Internet-Drafts
+    all changes arising from implementation in Milestones 11
+    and 12.
+  - Incorporate all specification changes resulting from the
+    Notifications Re-haul and MLS proof of concept.
+  - Evolve the specifications from implementation lessons,
+    focusing on newer sections not yet reflected in an actual
+    implementation.
+
+- Milestone M14: Distributed Directory Service Implementation
+  - Following the approach of Milestones 3 and 8, implement the
+    decentralized Directory Service and demonstrate it for the
+    main cloud storage systems.
+  - Implement a proof of concept in CERNBox and Nextcloud.
+  - Explore extending the validator delivered in Milestone 9
+    to validate the distributed Directory Service.
+  - Where needed, amend the specification following the same
+    workflow as Milestone 13.
+
 | Milestone    | Deadline   |
 |--------------|------------|
 | Milestone 1  | 2025-12-31 |
@@ -85,3 +137,7 @@
 | Milestone 8  | 2026-06-30 |
 | Milestone 9  | 2026-08-31 |
 | Milestone 10 | 2026-09-30 |
+| Milestone 11 | 2026-11-30 |
+| Milestone 12 | 2026-12-31 |
+| Milestone 13 | 2026-12-31 |
+| Milestone 14 | 2027-01-31 |
