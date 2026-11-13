@@ -141,18 +141,3 @@
 | Milestone 12 | 2026-12-31 |
 | Milestone 13 | 2026-12-31 |
 | Milestone 14 | 2027-01-31 |
-
-## Contract amendment effective 3 November 2026
-
-The amendment extends the contract term to 31 January 2027 and
-adds EUR 40,000 for Milestones 11-14. The overall remuneration
-cap is EUR 140,000 plus statutory VAT. The hourly rate and other
-remuneration terms remain unchanged.
-
-| Milestone | Amount (EUR) |
-|-----------|-------------:|
-| M11       |       12,000 |
-| M12       |        9,000 |
-| M13       |       12,000 |
-| M14       |        7,000 |
-| Total     |       40,000 |
